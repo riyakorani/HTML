@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>🎓 Student Registration Form</h1>
+
+    <form>
+
+        <!-- Name -->
+
+        <div>
+            <label for="name">Full Name:</label>
+
+            <input 
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required>
+        </div>
+
+        <br>
+
+        <!-- Email -->
+
+        <div>
+            <label for="email">Email:</label>
+
+            <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required>
+        </div>
+
+        <br>
+
+        <!-- Branch -->
+
+        <div>
+            <label for="branch">Select Branch:</label>
+
+            <select id="branch" name="branch">
+
+                <option value="cse">CSE</option>
+                <option value="ai">AI</option>
+                <option value="it">IT</option>
+                <option value="ece">ECE</option>
+                <option value="civil">Civil</option>
+                <option value="cyber">Cyber Security</option>
+
+            </select>
+        </div>
+
+        <br>
+
+        <!-- Gender -->
+
+        <div>
+            <p>Select Gender:</p>
+
+            <input 
+            type="radio"
+            id="male"
+            name="gender"
+            value="male">
+
+            <label for="male">Male</label>
+
+            <input 
+            type="radio"
+            id="female"
+            name="gender"
+            value="female">
+
+            <label for="female">Female</label>
+
+            <input 
+            type="radio"
+            id="other"
+            name="gender"
+            value="other">
+
+            <label for="other">Other</label>
+        </div>
+
+        <br>
+
+        <!-- Hobbies -->
+
+        <div>
+            <p>Select Hobbies:</p>
+
+            <input 
+            type="checkbox"
+            id="coding"
+            name="hobby"
+            value="coding">
+
+            <label for="coding">Coding</label>
+
+            <input 
+            type="checkbox"
+            id="reading"
+            name="hobby"
+            value="reading">
+
+            <label for="reading">Reading</label>
+
+            <input 
+            type="checkbox"
+            id="sports"
+            name="hobby"
+            value="sports">
+
+            <label for="sports">Sports</label>
+        </div>
+
+        <br>
+
+        <!-- Address -->
+
+        <div>
+            <label for="address">Address:</label>
+
+            <br>
+
+            <textarea
+            id="address"
+            name="address"
+            rows="5"
+            cols="40"
+            placeholder="Enter your address">
+            </textarea>
+        </div>
+
+        <br>
+
+        <!-- Submit Button -->
+
+        <button type="submit">
+            Register
+        </button>
+
+    </form>
+
+</body>
+</html>
